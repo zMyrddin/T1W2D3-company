@@ -24,3 +24,23 @@ Header has the logo of the company along with the navigation bar. Here is the co
             <a href="./pages/contact.html">Contact</a>
         </nav>
 ```
+...
+### Footer
+Footer has the social media links, contact information, and address. Here is the code that we have for the footer:
+
+```html
+    <footer>   
+            <div class="social-media">
+                <a href="">
+                    <i class="fa-brands fa-github"></i></a>
+                <a href="">
+                    <i class="fa-brands fa-linkedin"></i></a>
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div class="info">
+                <p> Contact: 0000000000 </p>
+                <p> Address: 1 Street St, Suburb</p>
+            </div>
+    </footer>
+```
