@@ -44,3 +44,24 @@ Footer has the social media links, contact information, and address. Here is the
             </div>
     </footer>
 ```
+...
+
+## Pages
+
+### Home
+Home page, for now, just displays some lorem ipsum text and random image. Here is the code that we have used:
+```html
+        <main>      
+            <section>
+                <div class="jumbotron">
+                    <img src="./images/jumbotron.jpg"
+                    alt="jumbotron image">
+                </div>
+                <div class="details">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                </div>
+            </section>
+            
+        </main>
+```

@@ -17,34 +17,69 @@ body {
 }
 
 header {
-    @include background-stuff();
+        @include background-stuff();
 
-    .logo-name {
-        margin-bottom: 24px;
+        .logo-name {
+            @media screen and (max-width: 600px){
+                margin-bottom: 24px;
 
-        .name {
+            .name {
 
-            font-size: 28px;
+                font-size: 28px;
 
-            .coder-text {
-                color: #45A7C5;
+                .coder-text {
+                    color: #45A7C5;
+                }
+
+                .academy-text {
+                    color: #1C3C5C;
+                }
             }
+        }
 
-            .academy-text {
-                color: #1C3C5C;
+        .nav-items {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            font-size: 18px;
+
+            a {
+                text-decoration: none;
+                color: #00a3d4;
             }
         }
     }
+}
 
-    .nav-items {
-        width: 100%;
+@media screen and (min-width: 600px) {
+    header {
         display: flex;
-        justify-content: space-around;
-        font-size: 18px;
+        align-items: flex-end;
+        justify-content: space-between;
+        
+        .logo-name {
+            // margin-bottom: 0; this will be taken care of in mobile view
 
-        a {
-            text-decoration: none;
-            color: #00a3d4;
+            .name {
+                margin-bottom: 0;
+            }
+        }
+
+        .nav-items {
+            width: 50%;
+
+        }
+    
+    }
+}
+
+main {
+    section {
+        .jumbotron {
+            img {
+                height: 300px;
+                width: 100%;
+            }
         }
     }
 }
@@ -66,6 +101,20 @@ footer {
 
     .info {
         color: rgb(41, 40, 40);
+        
+        p {
+            margin: 5px 0;
+        }
     }
 
+}
+
+@media screen and (min-width: 600px) {
+    footer {
+        .social-media {
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
 }
