@@ -1,12 +1,3 @@
-body {
-  margin: 0;
-  background-color: #a5a5a5;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 header {
   background-color: #ffb6b6;
   padding: 16px;
@@ -16,23 +7,23 @@ header {
   header .logo-name {
     margin-bottom: 24px;
   }
-  header .logo-name .name {
-    font-size: 28px;
-  }
-  header .logo-name .name .coder-text {
-    color: #45A7C5;
-  }
-  header .logo-name .name .academy-text {
-    color: #1C3C5C;
-  }
 }
-header .logo-name .nav-items {
+header .logo-name .name {
+  font-size: 28px;
+}
+header .logo-name .name .coder-text {
+  color: #45A7C5;
+}
+header .logo-name .name .academy-text {
+  color: #1C3C5C;
+}
+header .nav-items {
   width: 100%;
   display: flex;
   justify-content: space-around;
   font-size: 18px;
 }
-header .logo-name .nav-items a {
+header .nav-items a {
   text-decoration: none;
   color: #00a3d4;
 }
@@ -50,11 +41,6 @@ header .logo-name .nav-items a {
     width: 50%;
   }
 }
-main section .jumbotron img {
-  height: 300px;
-  width: 100%;
-}
-
 footer {
   background-color: #ffb6b6;
   padding: 16px;
@@ -69,7 +55,7 @@ footer .social-media a i {
   color: #1C3C5C;
 }
 footer .info {
-  color: rgb(41, 40, 40);
+  color: #1C3C5C;
 }
 footer .info p {
   margin: 5px 0;
@@ -81,4 +67,17 @@ footer .info p {
     margin-left: auto;
     margin-right: auto;
   }
+}
+main section .jumbotron img {
+  height: 300px;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #a5a5a5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }/*# sourceMappingURL=index.css.map */
