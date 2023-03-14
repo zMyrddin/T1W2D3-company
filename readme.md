@@ -66,6 +66,9 @@ Home page, for now, just displays some lorem ipsum text and random image. Here i
         </main>
 ```
 
+### Services
+Services page displays the list of services that we provide.
+
 ...
 ## Styling
 ...
